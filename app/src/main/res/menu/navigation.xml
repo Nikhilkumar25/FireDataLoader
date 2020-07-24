@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/image_fragment_btn"
+         android:icon="@drawable/ic_baseline_image_24"
+        android:title="Images"/>
+
+    <item android:id="@+id/video_fragment_btn"
+         android:icon="@drawable/ic_baseline_video_library_24"
+        android:title="Videos"/>
+
+</menu>

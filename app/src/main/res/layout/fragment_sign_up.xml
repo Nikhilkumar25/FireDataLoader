@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".SignUpFragment"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/dark_blue"
+        android:text="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="enter email"
+        android:textSize="20sp"
+        android:paddingHorizontal="5dp"
+
+        android:background="@drawable/edit_text"
+        android:inputType="textEmailAddress"
+        android:id="@+id/signup_email_edit_txt"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_blue"
+        android:textSize="21sp"
+        android:layout_marginBottom="5dp"
+        android:text="Set Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="set password (more than 6 characters)"
+        android:textSize="20sp"
+        android:paddingHorizontal="5dp"
+
+        android:background="@drawable/edit_text"
+        android:inputType="textPassword"
+        android:id="@+id/signup_password_edit_txt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:id="@+id/signup_btn"
+        android:background="@drawable/btn_auth"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have a account?"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogIn Account"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:id="@+id/to_login_account_btn"/></LinearLayout>
+
+</LinearLayout>
